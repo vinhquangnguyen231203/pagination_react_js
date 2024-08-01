@@ -4,8 +4,7 @@ import { Container, Table } from "reactstrap";
 import { getProductThunk } from "../redux/productSlice";
 import Product from "./Product";
 
-
-import './products.css'
+import './pagination.css'
 import Pagination from "react-js-pagination";
 
 export default function Products() {
